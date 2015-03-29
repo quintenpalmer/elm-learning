@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "summary": "Frontend for learning elm",
+    "repository": "https://github.com/quintenpalmer/elm-learning.git",
+    "license": "MIT",
+    "source-directories": [
+        "."
+    ],
+    "exposed-modules": [],
+    "dependencies": {
+        "elm-lang/core": "1.1.1 <= v < 2.0.0"
+    }
+}
