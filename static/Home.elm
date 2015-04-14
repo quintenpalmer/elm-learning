@@ -19,7 +19,7 @@ getAlbums = Http.send <| Signal.constant <| Http.get <| requestPath "artists"
 
 requestPath : String -> String
 requestPath path =
-    "http://localhost:8080/rest/v1/" ++ path
+    "rest/v1/" ++ path
 
 type alias Dimensions =
     { width: Int
